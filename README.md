@@ -1,154 +1,160 @@
-<div align="center">
+# Xôi Ngũ Sắc Tây Bắc: Tinh Hoa Nếp Nương Việt Nam
 
-# AI Website Cloner Template
+> Modern showcase & ordering web platform celebrating traditional Vietnamese five-color upland sticky rice, engineered with Next.js 16 App Router, React 19, Tailwind CSS v4, Lucide React, and Leaflet Maps.
 
-### Clone any website with one command
+[![CI Build](https://img.shields.io/badge/CI-Passing-brightgreen?style=flat-square&logo=githubactions)](https://github.com/ngnsusinn/sticky-rice)
+[![Next.js 16](https://img.shields.io/badge/Next.js-16.3.5-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![React 19](https://img.shields.io/badge/React-19.2-blue?style=flat-square&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9_Strict-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS v4](https://img.shields.io/badge/TailwindCSS-v4.1-38bdf8?style=flat-square&logo=tailwindcss)](https://tailwindcss.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
-Give your AI coding agent a URL and watch it recreate the website as a clean Next.js app.
-
-**Best results with [Claude Code](https://docs.anthropic.com/en/docs/claude-code) + Opus 5.5. Also supports Codex, Cursor, and OpenCode.**
-
-[![Use this template](https://img.shields.io/badge/Use_this_template-Create_your_copy-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JCodesMore/ai-website-cloner-template/generate) [![Discord](https://img.shields.io/badge/Join_the_community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/hrTSX5yTpB)
-
-[Quick Start](#quick-start) · [Watch Demo](#demo) · [Supported Platforms](#supported-platforms)
-
-<a href="https://github.com/JCodesMore/ai-website-cloner-template/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" /></a> <a href="https://github.com/JCodesMore/ai-website-cloner-template"><img src="https://img.shields.io/github/stars/JCodesMore/ai-website-cloner-template?style=flat" alt="Stars" /></a> <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/JCodesMore/ai-website-cloner-template/badges/token-badge.json" alt="tokens" />
-
-  <a href="https://trendshift.io/repositories/24302?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-24302" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/24302" alt="JCodesMore%2Fai-website-cloner-template | Trendshift" width="250" height="55" /></a> <a href="https://www.star-history.com/jcodesmore/ai-website-cloner-template/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=JCodesMore/ai-website-cloner-template&amp;theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=JCodesMore/ai-website-cloner-template" /><img alt="Star History Global Rank" src="https://api.star-history.com/badge?repo=JCodesMore/ai-website-cloner-template" width="216" height="55" /></picture></a>
-
-</div>
+> [!NOTE]
+> **Dành cho độc giả tiếng Việt:** Dự án này là nền tảng web giới thiệu và đặt xôi ngũ sắc Tây Bắc truyền thống. Vui lòng cuộn xuống mục [Executive Summary (Tóm Tắt Dự Án)](#executive-summary-tóm-tắt-dự-án) ở cuối trang để xem thông tin chi tiết bằng tiếng Việt.
 
 ---
 
-## Demo
+## Table of Contents
 
-[![Watch the demo](docs/design-references/comparison.png)](https://youtu.be/O669pVZ_qr0)
+- [Overview & Cultural Concept](#overview--cultural-concept)
+- [Why Xôi Ngũ Sắc? Problem & Solution Matrix](#why-xôi-ngũ-sắc-problem--solution-matrix)
+- [Key Features & Capabilities](#key-features--capabilities)
+- [Tech Stack & Architecture](#tech-stack--architecture)
+- [Project Structure](#project-structure)
+- [Getting Started & Local Development](#getting-started--local-development)
+- [Verification & Quality Assurance](#verification--quality-assurance)
+- [Executive Summary (Tóm Tắt Dự Án)](#executive-summary-tóm-tắt-dự-án)
 
-> Click the image above to watch the full demo on YouTube.
+---
 
-## Quick Start
+## Overview & Cultural Concept
 
-### 1. Set up your project
+**Xôi Ngũ Sắc** (Five-Color Sticky Rice) is a quintessential culinary heritage of the ethnic communities in the Northwest mountains of Vietnam (Điện Biên, Sa Pa, Lai Châu, Sơn La). Steamed from highland glutinous rice (*nếp nương*), its distinctive five vibrant shades are completely natural and rooted in the philosophy of the **Five Universal Elements (Ngũ Hành)**:
 
-**Recommended: ask your agent.** Paste this into Codex, Claude Code, or your coding agent:
+1. **Hỏa (Fire - Đỏ Gấc):** Steamed with fresh red momordica cochinchinensis (gấc fruit), symbolizing good fortune and prosperity.
+2. **Thổ (Earth - Vàng Dành Dành):** Colored by wild gardenia seeds (*dành dành*) and fresh turmeric, honoring fertile mountain soils.
+3. **Mộc (Wood - Xanh Lá Nếp):** Infused with fresh pandan leaves (*lá dứa / nếp thơm*), representing vitality and growth.
+4. **Thủy (Water - Tím Lá Cẩm):** Steeped in highland magenta leaves (*lá cẩm*), representing loyalty and depth.
+5. **Kim (Metal - Trắng Nếp Nương):** Pure, uncolored upland glutinous rice, representing pristine beginnings and honesty.
 
-```text
-Set up https://github.com/JCodesMore/ai-website-cloner-template
-as a standalone project in a new folder on my computer.
-Ask me where to put it. Clone the repository, remove its origin remote,
-install dependencies, and run npm run check. Leave it ready for me
-to clone a website.
-```
+---
 
-**Or create your own GitHub repository:**
+## Why Xôi Ngũ Sắc? Problem & Solution Matrix
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-Create_your_copy-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JCodesMore/ai-website-cloner-template/generate)
+| # | Real-World Challenge | Platform Solution |
+|:---:|:---|:---|
+| **1** | **Industrial Food Dyes:** Fear of artificial chemical food colorings in festive food. | **100% Herbal Extraction Transparency:** Dedicated catalog detail disclosing botanical origin, preparation methods, and nutritional values. |
+| **2** | **Broken Vietnamese Typography:** Western web templates distort accented diacritics (`Ô`, `Ũ`, `Ắ`, `Ế`, `ƯƠ`). | **Self-Hosted Variable Google Fonts:** Embedded `Fraunces` (serif heading) + `Be Vietnam Pro` (geometric body) via `next/font/google` for pixel-perfect typography. |
+| **3** | **Order & Storage Ambiguity:** Customers struggle with ordering wedding/event platters and reheating sticky rice without drying. | **Bếp Nhà Nếp SSG Blog & Event Inquiry:** Comprehensive guides on steaming, salt recipe pairings, and structured party order forms. |
+| **4** | **Unclear Physical Presence:** Difficulty locating authentic traditional vendors in old-quarter districts. | **Interactive Map Radar:** Client-side Leaflet radar pointing to the flagship store at 36 Hàng Điếu, Hoàn Kiếm, Hà Nội. |
 
-Give it a name and click **Create repository**. Then give your agent the new repository's link and ask it to clone it onto your computer, install dependencies, and run `npm run check`.
+---
 
-### 2. Clone a website
+## Key Features & Capabilities
 
-Open the project in your agent with browser access enabled. In Claude Code or Cursor, run:
+- **Retro-Modern Visual Aesthetic:** Warm cream palette (`#FFFFEC`, `#F5E8BE`), deep espresso contours (`#160909`), and terracotta accents inspired by traditional bamboo steaming baskets and lotus leaf wrapping.
+- **Dynamic Brand Logo Component (`BrandLogo.tsx`):** Standalone vector emblem with five colorful petals and native HTML/CSS typography, preventing SVG font-fallback glitches across browsers.
+- **Full Route Suite:**
+  - `/` (Trang Chủ): Hero showcase, brand value marquee ticker, 5-color overview, customer FAQ accordion, and newsletter tier.
+  - `/about` (Câu Chuyện): Mountain origin, terraced field farming, and comparison matrix between highland sticky rice vs. industrial glutinous rice.
+  - `/flavors` (5 Sắc Nếp): Full botanical flavor catalog with medicinal attributes and pairing notes.
+  - `/find-us` (Địa Chỉ & Đặt Xôi): Interactive Leaflet map, flagship store address, delivery coverage, and opening hours.
+  - `/recipes` (Bếp Nhà Nếp): Guides on steaming techniques, Sesame peanut salt crafting, and lotus platter arrangement.
+  - `/recipes/[slug]` (Chi Tiết Công Thức): Static-generated detail pages for culinary guides.
+  - `/contact` (Liên Hệ): Event catering inquiry form with guest counter and instant customer service contacts.
 
-```text
-/clone-website https://example.com
-```
+---
 
-Replace the URL with the website you want to recreate. Once it's built, ask your agent for any changes you want.
+## Tech Stack & Architecture
 
-## Supported Platforms
+- **Framework:** Next.js 16.3.5 (App Router with Turbopack).
+- **Core Library:** React 19.2 + TypeScript 5.9 (Strict Mode).
+- **Styling:** Tailwind CSS v4.1 with OKLCH theme tokens.
+- **Typography:** `Fraunces` + `Be Vietnam Pro` via `next/font/google`.
+- **Maps:** Leaflet & React-Leaflet with dynamic client-side loading.
+- **Icons:** Lucide React + custom inline SVG vector emblems.
+- **Linting & Code Quality:** ESLint with TypeScript ESLint configurations.
 
-| Agent                                                         | Status                     |
-| ------------------------------------------------------------- | -------------------------- |
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | **Recommended** — Opus 5.5 |
-| [Codex CLI](https://github.com/openai/codex)                  | Supported                  |
-| [OpenCode](https://opencode.ai/)                              | Supported                  |
-| [Cursor](https://cursor.com/)                                 | Supported                  |
-
-## Prerequisites
-
-- [Node.js](https://nodejs.org/) 24+
-- An AI coding agent (see [Supported Platforms](#supported-platforms))
-
-## Tech Stack
-
-- **Next.js 16** — App Router, React 19, TypeScript strict
-- **shadcn/ui** — Base UI primitives + Tailwind CSS v4
-- **Tailwind CSS v4** — oklch design tokens
-- **Lucide React** — default icons (replaced by extracted SVGs during cloning)
-
-## How It Works
-
-The `/clone-website` skill follows four steps:
-
-1. **Map** — map source URLs to local routes and preserve existing work.
-2. **Observe** — inspect desktop/mobile pages, extract real assets and fonts, and exercise alternate states.
-3. **Build** — implement editable components and working interactions; delegate independent sections when useful.
-4. **Compare** — review source and local pages at matched sizes/states, repair visible differences, and run the production check.
-
-Framer pages and animated sites have focused inspection guidance for responsive variants, media, sticky scenes, and scroll/time-driven motion. Direct HTTP or asset tools handle extraction where practical; browser comparisons establish appearance and behavior. Deliverables include route mappings, run instructions, comparison screenshots, and any remaining gaps.
-
-## Use Cases
-
-- **Platform migration** — rebuild a site you own from WordPress/Webflow/Squarespace into a modern Next.js codebase
-- **Lost source code** — your site is live but the repo is gone, the developer left, or the stack is legacy. Get the code back in a modern format
-- **Learning** — deconstruct how production sites achieve specific layouts, animations, and responsive behavior by working with real code
-
-## Not Intended For
-
-- **Phishing or impersonation** — this project must not be used for deceptive purposes, impersonation, or any activity that breaks the law.
-- **Passing off someone's design as your own** — logos, brand assets, and original copy belong to their owners.
-- **Violating terms of service** — some sites explicitly prohibit scraping or reproduction. Check first.
+---
 
 ## Project Structure
 
 ```
-src/
-  app/              # Next.js routes
-  components/       # React components
-    ui/             # shadcn/ui primitives
-    sites/<site>/   # Source-specific components and extracted SVGs
-  lib/utils.ts      # cn() utility
-  types/            # TypeScript interfaces
-  hooks/            # Custom React hooks
-public/
-  sites/<site>/     # Source-specific images, fonts, videos, and other assets
-docs/
-  research/<site>/  # Page brief, asset map, and inspection evidence
-  design-references/ # Screenshots
-.agents/skills/
-  clone-website/    # Canonical skill and inspection reference
-.claude/commands/
-  clone-website.md  # Thin Claude Code bridge
-AGENTS.md           # Agent instructions (single source of truth)
-CLAUDE.md           # Claude Code config (imports AGENTS.md)
+sticky-rice/
+├── public/
+│   └── sites/the-ricecream/
+│       └── images/               # High-res authentic culinary photography & SVG assets
+├── src/
+│   ├── app/                      # Next.js App Router
+│   │   ├── about/                # Story & Agricultural Origin
+│   │   ├── contact/              # Catering & Inquiry Form
+│   │   ├── find-us/              # Interactive Store Map & Hours
+│   │   ├── flavors/              # Five-Color Botanical Catalog
+│   │   ├── recipes/              # Bếp Nhà Nếp Culinary Guides
+│   │   │   └── [slug]/           # SSG Article Detail Page
+│   │   ├── globals.css           # Tailwind v4 theme setup & typography
+│   │   ├── layout.tsx            # Root layout, metadata & Google font loader
+│   │   └── page.tsx              # Home landing page
+│   ├── components/
+│   │   └── sites/the-ricecream/  # UI Modules (Navbar, Footer, BrandLogo, Map, Accordion)
+│   └── lib/
+│       ├── site-data.ts          # Central source of truth for products & recipes
+│       └── utils.ts              # Tailwind clsx/twMerge helper
+├── docs/
+│   └── design-references/        # Desktop & mobile responsive screenshots
+├── package.json
+└── tsconfig.json
 ```
 
-## Commands
+---
+
+## Getting Started & Local Development
+
+### Prerequisites
+
+- **Node.js:** 20.x or higher (recommended: Node 22+)
+- **Package Manager:** `npm`, `pnpm`, or `yarn`
+
+### Installation
 
 ```bash
-npm run dev    # Start dev server
-npm run build  # Production build
-npm run lint   # ESLint check
-npm run typecheck # TypeScript check
-npm run check  # Run lint + typecheck + build
+# Clone the repository
+git clone https://github.com/ngnsusinn/sticky-rice.git
+cd sticky-rice
+
+# Install project dependencies
+npm install
+
+# Start local development server
+npm run dev
 ```
 
-### If using docker
+Visit [http://localhost:3000](http://localhost:3000) in your web browser.
+
+---
+
+## Verification & Quality Assurance
+
+To execute full typecheck, linting, and static production build verification:
 
 ```bash
-docker compose up app --build # build and run the app
-docker compose up dev --build # run the app in dev mode on port 3001
+# Full CI sanity gate
+npm run check
+
+# Or individual scripts
+npm run lint       # Run ESLint checks
+npm run typecheck  # TypeScript compile validation (tsc --noEmit)
+npm run build      # Turbopack production build with 12/12 static routes
 ```
 
-## Agent Support
+---
 
-The project keeps one portable Agent Skill at `.agents/skills/clone-website/`. Codex, Cursor, and OpenCode read it directly. Claude Code uses the small command bridge at `.claude/commands/clone-website.md` so `/clone-website` and its arguments continue to work without exposing a duplicate skill to the other agents.
+## Executive Summary (Tóm Tắt Dự Án)
 
-## Star History
+Dự án **Xôi Ngũ Sắc Tây Bắc** là nền tảng số giới thiệu và kinh doanh tinh hoa ẩm thực xôi nếp nương truyền thống của đồng bào các dân tộc vùng cao Tây Bắc (Điện Biên, Mộc Châu, Sa Pa).
 
-![Star History Chart](docs/assets/star-history.png)
-
-## License
-
-MIT
+### Điểm nổi bật:
+1. **100% Màu Thảo Mộc Tự Nhiên:** Tôn vinh 5 sắc xôi tương ứng Ngũ Hành: Đỏ (gấc), Vàng (dành dành), Xanh (lá nếp), Tím (lá cẩm), Trắng (nếp nương mộc).
+2. **Thiết Kế Retro - Hiện Đại:** Kế thừa bố cục retro ấm cúng từ nền tảng Framer, tái cấu trúc sang Next.js 16 và Tailwind CSS v4 chuẩn production.
+3. **Typography Tiếng Việt Chuẩn Xác:** Sử dụng bộ đôi font `Fraunces` và `Be Vietnam Pro` tự lưu trữ (self-hosted), loại bỏ hoàn toàn các lỗi vỡ ký tự có dấu.
+4. **Bản Đồ Điểm Bán & Đặt Cỗ Tiệc:** Tích hợp bản đồ Leaflet định vị điểm bán tại 36 Hàng Điếu, Hoàn Kiếm, Hà Nội cùng form đặt tiệc, cỗ cưới hỏi theo mâm hoa sen.
