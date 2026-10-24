@@ -2,8 +2,8 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import { Navbar } from "@/components/sites/the-ricecream/Navbar";
-import { Footer } from "@/components/sites/the-ricecream/Footer";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -63,7 +63,7 @@ export default function ContactPage() {
                 >
                   <div className="w-12 h-12 rounded-full bg-[#FFFFEC] flex items-center justify-center p-2.5 shrink-0 transition-transform group-hover:scale-105 border border-[#160909]/10">
                     <Image
-                      src="/sites/the-ricecream/images/XobD3SwuSBsSBZrhf2k8bevZEi0.svg"
+                      src="/images/XobD3SwuSBsSBZrhf2k8bevZEi0.svg"
                       alt="Facebook & Instagram"
                       width={24}
                       height={24}
@@ -82,7 +82,7 @@ export default function ContactPage() {
                 >
                   <div className="w-12 h-12 rounded-full bg-[#FFFFEC] flex items-center justify-center p-2.5 shrink-0 transition-transform group-hover:scale-105 border border-[#160909]/10">
                     <Image
-                      src="/sites/the-ricecream/images/kfdjrx3yIH6zSz7SFPTV5nMBi4.svg"
+                      src="/images/kfdjrx3yIH6zSz7SFPTV5nMBi4.svg"
                       alt="Hotline"
                       width={24}
                       height={24}
@@ -98,7 +98,7 @@ export default function ContactPage() {
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-full bg-[#FFFFEC] flex items-center justify-center p-2.5 shrink-0 border border-[#160909]/10 mt-1">
                     <Image
-                      src="/sites/the-ricecream/images/s9Rr1jnHKdN9djJX8LfDliVXuo.svg"
+                      src="/images/s9Rr1jnHKdN9djJX8LfDliVXuo.svg"
                       alt="Địa chỉ"
                       width={24}
                       height={24}

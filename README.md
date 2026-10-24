@@ -82,8 +82,7 @@
 ```
 sticky-rice/
 ├── public/
-│   └── sites/the-ricecream/
-│       └── images/               # High-res authentic culinary photography & SVG assets
+│   └── images/                   # High-res authentic culinary photography & SVG assets
 ├── src/
 │   ├── app/                      # Next.js App Router
 │   │   ├── about/                # Story & Agricultural Origin
@@ -95,13 +94,11 @@ sticky-rice/
 │   │   ├── globals.css           # Tailwind v4 theme setup & typography
 │   │   ├── layout.tsx            # Root layout, metadata & Google font loader
 │   │   └── page.tsx              # Home landing page
-│   ├── components/
-│   │   └── sites/the-ricecream/  # UI Modules (Navbar, Footer, BrandLogo, Map, Accordion)
+│   ├── components/               # UI Modules (Navbar, Footer, BrandLogo, Map, Accordion)
+│   │   └── ui/                   # shadcn primitives (button, etc.)
 │   └── lib/
 │       ├── site-data.ts          # Central source of truth for products & recipes
 │       └── utils.ts              # Tailwind clsx/twMerge helper
-├── docs/
-│   └── design-references/        # Desktop & mobile responsive screenshots
 ├── package.json
 └── tsconfig.json
 ```

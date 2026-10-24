@@ -7,23 +7,23 @@ export function TickerArch() {
   const badges = [
     {
       label: "Nếp Nương Điện Biên",
-      src: "/sites/the-ricecream/images/0l5UcMLsLRMBGi6uPj6s9Mtojpo.png",
+      src: "/images/0l5UcMLsLRMBGi6uPj6s9Mtojpo.png",
     },
     {
       label: "100% Màu Cỏ Cây Rừng",
-      src: "/sites/the-ricecream/images/ATdmj2unOVI6QDcwWLSS9ygNb4.png",
+      src: "/images/ATdmj2unOVI6QDcwWLSS9ygNb4.png",
     },
     {
       label: "Không Phẩm Màu Hóa Học",
-      src: "/sites/the-ricecream/images/MAlMDuZuXmRtVs6AJkRVHO5NeY.png",
+      src: "/images/MAlMDuZuXmRtVs6AJkRVHO5NeY.png",
     },
     {
       label: "Dẻo Thơm Suốt 24 Giờ",
-      src: "/sites/the-ricecream/images/2XPfOm4LfaYjA88ErEXkCWPDLm0.png",
+      src: "/images/2XPfOm4LfaYjA88ErEXkCWPDLm0.png",
     },
     {
       label: "Gói Lá Sen & Lá Chuối",
-      src: "/sites/the-ricecream/images/0l5UcMLsLRMBGi6uPj6s9Mtojpo.png",
+      src: "/images/0l5UcMLsLRMBGi6uPj6s9Mtojpo.png",
     },
   ];
 
@@ -60,7 +60,7 @@ export function TickerArch() {
       <div className="relative w-full max-w-[1240px] px-6 sm:px-10 mt-10 sm:mt-14">
         <div className="relative w-full aspect-[21/9] sm:aspect-[24/9] rounded-[36px] sm:rounded-[56px] overflow-hidden shadow-2xl border-4 border-[#160909]/10 group">
           <Image
-            src="/sites/the-ricecream/images/xoi-ngu-sac-main.jpg"
+            src="/images/xoi-ngu-sac-main.jpg"
             alt="Mâm Xôi Ngũ Sắc Đại Cát Truyền Thống"
             fill
             className="object-cover object-center transition-transform duration-700 group-hover:scale-105"

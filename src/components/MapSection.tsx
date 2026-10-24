@@ -43,7 +43,7 @@ export function MapSection({
 
       // Custom Rice Cream Pint Icon
       const pintIcon = L.icon({
-        iconUrl: "/sites/the-ricecream/images/PIDlUmCbn8AkmcZaLfb2exYFc.png",
+        iconUrl: "/images/PIDlUmCbn8AkmcZaLfb2exYFc.png",
         iconSize: [46, 50],
         iconAnchor: [23, 50],
         popupAnchor: [0, -50],

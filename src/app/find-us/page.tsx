@@ -2,9 +2,9 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { Navbar } from "@/components/sites/the-ricecream/Navbar";
-import { Footer } from "@/components/sites/the-ricecream/Footer";
-import { MapSection } from "@/components/sites/the-ricecream/MapSection";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
+import { MapSection } from "@/components/MapSection";
 
 export default function FindUsPage() {
   const [notifyEmail, setNotifyEmail] = useState("");

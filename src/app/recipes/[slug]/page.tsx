@@ -2,8 +2,8 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { Navbar } from "@/components/sites/the-ricecream/Navbar";
-import { Footer } from "@/components/sites/the-ricecream/Footer";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
 import { RECIPES } from "@/lib/site-data";
 
 export function generateStaticParams() {

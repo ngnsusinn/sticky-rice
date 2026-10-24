@@ -30,7 +30,7 @@ export const RECIPES: Recipe[] = [
     title: "Bí quyết hấp lại xôi dẻo bóng như vừa dỡ chõ",
     subtitle:
       "Bí quyết đơn giản giữ hạt xôi căng tròn, mọng nước, dậy mùi nếp nương dù đã để tủ lạnh qua đêm.",
-    image: "/sites/the-ricecream/images/xoi-xeo.jpg",
+    image: "/images/xoi-xeo.jpg",
     ingredients: [
       "Xôi ngũ sắc đã trữ mát hoặc trữ đông",
       "1-2 muỗng canh nước lọc tinh khiết hoặc nước cốt dừa",
@@ -52,7 +52,7 @@ export const RECIPES: Recipe[] = [
     title: "Cách làm muối vừng lạc rang giã tay bùi ngậy",
     subtitle:
       "Thức chấm mộc mạc 'linh hồn' của mọi đĩa xôi nếp — vị mặn mòi, béo bùi cân bằng hoàn hảo.",
-    image: "/sites/the-ricecream/images/xoi-do-xanh.jpg",
+    image: "/images/xoi-do-xanh.jpg",
     ingredients: [
       "200g đậu phộng (lạc sẻ củ nhỏ, vỏ đỏ giòn)",
       "100g vừng trắng (mè trắng) hoặc vừng đen hạt mẩy",
@@ -76,7 +76,7 @@ export const RECIPES: Recipe[] = [
     title: "Nghệ thuật tạo hình mâm xôi hoa sen ngũ sắc lễ tiệc",
     subtitle:
       "Hướng dẫn ép khuôn mâm xôi ngũ sắc ngũ hành dâng cúng tổ tiên, tiệc cưới hỏi mang lại đại cát, an khang.",
-    image: "/sites/the-ricecream/images/xoi-ngu-sac-main.jpg",
+    image: "/images/xoi-ngu-sac-main.jpg",
     ingredients: [
       "5 phần xôi 5 màu: Đỏ (gấc), Vàng (dành dành), Tím (lá cẩm), Xanh (lá nếp), Trắng (nếp nương)",
       "Khuôn ép xôi hoa sen / chữ Hỷ bằng gỗ hoặc silicon an toàn",
@@ -109,7 +109,7 @@ export const FLAVORS: Flavor[] = [
     ingredients:
       "Gạo nếp nương Điện Biên, thịt gấc nếp tươi, rượu nếp ủ men lá, dầu gấc nguyên chất, đường mía thô, muối hầm",
     allergenNote: "100% Thuần thực vật, không chất bảo quản, không phẩm màu nhân tạo",
-    image: "/sites/the-ricecream/images/xoi-ngu-sac-main.jpg",
+    image: "/images/xoi-ngu-sac-main.jpg",
   },
   {
     id: "vang-danh-danh",
@@ -124,7 +124,7 @@ export const FLAVORS: Flavor[] = [
     ingredients:
       "Gạo nếp nương, nước chiết quả dành dành tự nhiên, tinh nghệ nếp, nước cốt dừa Bến Tre, muối hầm",
     allergenNote: "100% Thuần chay tự nhiên, giàu curcumin chống oxy hóa tự nhiên",
-    image: "/sites/the-ricecream/images/xoi-do-xanh.jpg",
+    image: "/images/xoi-do-xanh.jpg",
   },
   {
     id: "xanh-la-nep",
@@ -139,7 +139,7 @@ export const FLAVORS: Flavor[] = [
     ingredients:
       "Gạo nếp cái hoa vàng, nước ép lá dứa nếp tươi nguyên chất, nước cốt dừa nướng, muối tinh",
     allergenNote: "Hương thơm 100% từ tinh dầu lá nếp rừng, không hương liệu nhân tạo",
-    image: "/sites/the-ricecream/images/xoi-chien-gion.jpg",
+    image: "/images/xoi-chien-gion.jpg",
   },
   {
     id: "tim-la-cam",
@@ -154,7 +154,7 @@ export const FLAVORS: Flavor[] = [
     ingredients:
       "Gạo nếp nương Điện Biên, nước luộc lá cẩm tím rừng, mỡ gà ta/dầu dừa thủ công, muối hầm",
     allergenNote: "Màu tím nguyên bản từ sắc tố thảo mộc tự nhiên",
-    image: "/sites/the-ricecream/images/xoi-la-cam.jpg",
+    image: "/images/xoi-la-cam.jpg",
   },
   {
     id: "trang-nep-nuong",
@@ -169,6 +169,6 @@ export const FLAVORS: Flavor[] = [
     ingredients:
       "100% Gạo nếp nương giống cổ bản địa Điện Biên, nước suối nguồn thanh lọc, một chút muối khoáng",
     allergenNote: "Vị ngọt bùi nguyên bản của hạt nếp vùng cao",
-    image: "/sites/the-ricecream/images/xoi-ga.jpg",
+    image: "/images/xoi-ga.jpg",
   },
 ];

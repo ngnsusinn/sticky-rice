@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   description:
     "Chuyên mâm xôi ngũ sắc Tây Bắc làm từ nếp nương Điện Biên, 100% màu tự nhiên từ lá cẩm, quả gấc, lá nếp, dành dành. Nhận đặt tiệc cưới, cúng giỗ, lễ tết giao nóng tận nơi.",
   icons: {
-    icon: "/sites/the-ricecream/images/logo-xoi-ngu-sac.svg",
+    icon: "/images/logo-xoi-ngu-sac.svg",
   },
 };
 

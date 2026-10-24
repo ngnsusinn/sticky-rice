@@ -1,13 +1,13 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Navbar } from "@/components/sites/the-ricecream/Navbar";
-import { Footer } from "@/components/sites/the-ricecream/Footer";
-import { StarburstBadge } from "@/components/sites/the-ricecream/StarburstBadge";
-import { WaveDivider } from "@/components/sites/the-ricecream/WaveDivider";
-import { TickerArch } from "@/components/sites/the-ricecream/TickerArch";
-import { FAQAccordion } from "@/components/sites/the-ricecream/FAQAccordion";
-import { MapSection } from "@/components/sites/the-ricecream/MapSection";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
+import { StarburstBadge } from "@/components/StarburstBadge";
+import { WaveDivider } from "@/components/WaveDivider";
+import { TickerArch } from "@/components/TickerArch";
+import { FAQAccordion } from "@/components/FAQAccordion";
+import { MapSection } from "@/components/MapSection";
 import { RECIPES } from "@/lib/site-data";
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
           <div className="absolute inset-0 pointer-events-none flex items-center justify-center overflow-hidden">
             <div className="relative w-full h-full min-w-[1200px]">
               <Image
-                src="/sites/the-ricecream/images/yJCiNkNHI2FfSjnEidsY2TrkwI.svg"
+                src="/images/yJCiNkNHI2FfSjnEidsY2TrkwI.svg"
                 alt=""
                 fill
                 className="object-contain object-center"
@@ -72,7 +72,7 @@ export default function Home() {
             <div className="lg:col-span-6 relative flex items-center justify-center">
               <div className="relative w-full max-w-[480px] aspect-[4/3] rounded-[42px] overflow-hidden shadow-2xl border-4 border-white/60 transform rotate-[-2deg] hover:rotate-0 transition-transform duration-500">
                 <Image
-                  src="/sites/the-ricecream/images/xoi-ngu-sac-main.jpg"
+                  src="/images/xoi-ngu-sac-main.jpg"
                   alt="Mâm Xôi Ngũ Sắc Cổ Truyền"
                   fill
                   className="object-cover"
@@ -139,7 +139,7 @@ export default function Home() {
                   />
                   <div className="relative w-36 h-36 sm:w-44 sm:h-44 z-10 rounded-full overflow-hidden shadow-md">
                     <Image
-                      src="/sites/the-ricecream/images/qua-gac.jpg"
+                      src="/images/qua-gac.jpg"
                       alt="Gấc nếp chín đỏ tự nhiên"
                       fill
                       className="object-cover"
@@ -165,7 +165,7 @@ export default function Home() {
                   />
                   <div className="relative w-36 h-36 sm:w-44 sm:h-44 z-10 rounded-full overflow-hidden shadow-md">
                     <Image
-                      src="/sites/the-ricecream/images/gao-nep-nuong.jpg"
+                      src="/images/gao-nep-nuong.jpg"
                       alt="Hạt gạo nếp nương tròn mẩy"
                       fill
                       className="object-cover"
@@ -191,7 +191,7 @@ export default function Home() {
                   />
                   <div className="relative w-36 h-36 sm:w-44 sm:h-44 z-10 rounded-full overflow-hidden shadow-md">
                     <Image
-                      src="/sites/the-ricecream/images/xoi-la-cam.jpg"
+                      src="/images/xoi-la-cam.jpg"
                       alt="Xôi lá cẩm tím dẻo bọc lá sen"
                       fill
                       className="object-cover"
@@ -247,7 +247,7 @@ export default function Home() {
             {/* Landscape photo */}
             <div className="lg:col-span-5 relative w-full aspect-[4/3] rounded-[32px] overflow-hidden shadow-2xl border-4 border-white/20">
               <Image
-                src="/sites/the-ricecream/images/ruong-bac-thang-sapa.jpg"
+                src="/images/ruong-bac-thang-sapa.jpg"
                 alt="Ruộng bậc thang Tây Bắc Sapa mùa lúa chín"
                 fill
                 className="object-cover"
@@ -287,7 +287,7 @@ export default function Home() {
               >
                 <div className="relative w-full aspect-[4/3] rounded-[32px] overflow-hidden shadow-md border border-[#160909]/10 transition-transform duration-300 group-hover:scale-105">
                   <Image
-                    src="/sites/the-ricecream/images/xoi-ngu-sac-main.jpg"
+                    src="/images/xoi-ngu-sac-main.jpg"
                     alt="Mâm Xôi Ngũ Sắc Cổ Truyền"
                     fill
                     className="object-cover"
@@ -310,7 +310,7 @@ export default function Home() {
               >
                 <div className="relative w-full aspect-[4/3] rounded-[32px] overflow-hidden shadow-md border border-[#160909]/10 transition-transform duration-300 group-hover:scale-105">
                   <Image
-                    src="/sites/the-ricecream/images/xoi-chien-gion.jpg"
+                    src="/images/xoi-chien-gion.jpg"
                     alt="Xôi Chiên Giòn Ngũ Sắc"
                     fill
                     className="object-cover"
@@ -333,7 +333,7 @@ export default function Home() {
               >
                 <div className="relative w-full aspect-[4/3] rounded-[32px] overflow-hidden shadow-md border border-[#160909]/10 transition-transform duration-300 group-hover:scale-105">
                   <Image
-                    src="/sites/the-ricecream/images/xoi-ga.jpg"
+                    src="/images/xoi-ga.jpg"
                     alt="Xôi Gà Xé Nấm Hương"
                     fill
                     className="object-cover"

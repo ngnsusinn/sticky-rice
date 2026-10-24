@@ -2,8 +2,8 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import { Navbar } from "@/components/sites/the-ricecream/Navbar";
-import { Footer } from "@/components/sites/the-ricecream/Footer";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
 
 export default function AboutPage() {
   const [activeTab, setActiveTab] = useState<1 | 2>(1);
@@ -58,7 +58,7 @@ export default function AboutPage() {
             <div className="lg:col-span-6 flex justify-center">
               <div className="relative w-full max-w-[440px] aspect-square rounded-[36px] overflow-hidden bg-[#FFFFEC] p-4 shadow-lg border border-[#160909]/5">
                 <Image
-                  src="/sites/the-ricecream/images/gao-nep-nuong.jpg"
+                  src="/images/gao-nep-nuong.jpg"
                   alt="Hạt gạo nếp nương Điện Biên"
                   fill
                   className="object-cover rounded-[28px]"
@@ -74,7 +74,7 @@ export default function AboutPage() {
             <div className="lg:col-span-6 order-2 lg:order-1 flex justify-center">
               <div className="relative w-full max-w-[440px] aspect-square rounded-[36px] overflow-hidden bg-white p-4 shadow-lg border border-[#160909]/5">
                 <Image
-                  src="/sites/the-ricecream/images/xoi-la-cam.jpg"
+                  src="/images/xoi-la-cam.jpg"
                   alt="Xôi lá cẩm tím tự nhiên"
                   fill
                   className="object-cover rounded-[28px]"
